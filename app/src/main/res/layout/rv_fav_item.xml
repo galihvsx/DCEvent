@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginTop="4dp"
+    app:strokeWidth="0dp"
+    android:backgroundTint="@color/primary_background"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageLogo"
+            style="@style/Style.App.roundedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:src="@drawable/ic_launcher_background"
+            android:contentDescription="@string/event_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:cornerSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_event_name"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="8dp"
+            android:textColor="@color/primary_text_color" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

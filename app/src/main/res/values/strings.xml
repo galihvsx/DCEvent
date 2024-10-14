@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DC-Event</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="finished">Finished</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="image_logo">image_logo</string>
+    <string name="active_event">Upcoming Event</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="upcoming_course">Upcoming Events</string>
+    <string name="finished_course">Finished Events</string>
+    <string name="event_image">Event Image</string>
+    <string name="calendar_icon">calendar_icon</string>
+    <string name="location_icon">location_icon</string>
+    <string name="sample_event_name">IDCamp x Dicoding Live #1 - Beyond the Basics: Elevate Your Career as a Full Stack Developer in 2024</string>
+    <string name="close_button">Close</string>
+    <string name="register">Register</string>
+    <string name="search_event">Search Event</string>
+    <string name="oops_nothing_found">Oops! Nothing found</string>
+    <string name="register_event">register_event</string>
+    <string name="register_event_lbl">Register Event</string>
+    <string name="share">Share</string>
+    <string name="favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="setting">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
